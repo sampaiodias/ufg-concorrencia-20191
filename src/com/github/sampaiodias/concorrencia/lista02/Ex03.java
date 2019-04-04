@@ -5,13 +5,14 @@
  */
 package com.github.sampaiodias.concorrencia.lista02;
 
+import com.github.sampaiodias.concorrencia.util.Cronometro;
 import java.util.ArrayList;
 
 /**
  *
  * @author Lucas Sampaio Dias
  */
-public class Primos {
+public class Ex03 {
     public static void main(String[] args) {
         Cronometro cronometro = new Cronometro();
         imprimirPrimos(1, 300000);

@@ -5,11 +5,13 @@
  */
 package com.github.sampaiodias.concorrencia.lista02;
 
+import com.github.sampaiodias.concorrencia.util.Cronometro;
+
 /**
  * Classe que calcula o valor de Pi.
  * @author Lucas Sampaio Dias
  */
-public class Pi {
+public class Ex01 {
     public static void main(String[] args) {
         Cronometro cronometro = new Cronometro();
         double pi = calcularPi(10000);

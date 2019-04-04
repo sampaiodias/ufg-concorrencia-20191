@@ -5,6 +5,7 @@
  */
 package com.github.sampaiodias.concorrencia.lista02;
 
+import com.github.sampaiodias.concorrencia.util.Cronometro;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -17,7 +18,7 @@ import java.util.Map.Entry;
  *
  * @author Lucas Sampaio Dias
  */
-public class ContaNumeros {
+public class Ex02 {
     public static void main(String[] args) {
         Cronometro cronometro = new Cronometro();
         int num = numeroMaisFrequente();

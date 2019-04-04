@@ -3,7 +3,7 @@
  * Instituto de Informática (UFG)
  * Creative Commons Attribution 4.0 International License.
  */
-package com.github.sampaiodias.concorrencia.lista02;
+package com.github.sampaiodias.concorrencia.util;
 
 /**
  * @author Lucas Sampaio Dias
