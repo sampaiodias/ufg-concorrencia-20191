@@ -6,7 +6,6 @@
 package com.github.sampaiodias.concorrencia.lista02;
 
 /**
- *
  * @author Lucas Sampaio Dias
  */
 public final class Cronometro {
