@@ -44,7 +44,7 @@ public class Utilitario {
        try {
           md = MessageDigest.getInstance("MD5");
        } catch (NoSuchAlgorithmException e) {
-          e.printStackTrace();
+          //e.printStackTrace();
        }
        BigInteger hash = new BigInteger(1, md.digest(senha.getBytes()));
        sen = hash.toString(16);
